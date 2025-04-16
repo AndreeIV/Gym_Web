@@ -4,11 +4,15 @@
   "description": "Archivos base para empezar cualquier proyecto.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch scss:build/css"
   },
   "author": "Andree Ismodes",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^5.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.86.3"
   }
 }

@@ -1,0 +1,23 @@
+@use './../base/variables' as v;
+
+
+header {
+    // height: 20rem;
+    img {
+        width: 32px;
+        margin-right: 1rem;
+        
+    }
+    background-color: v.$negro;
+
+    i {
+        color: v.$gris-oscuro;
+        font-size: 3rem;
+    }
+    div {
+        font-size: 2rem;
+    }
+    .header-text {
+        font-size: 3rem;
+    }
+}

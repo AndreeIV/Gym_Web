@@ -1,0 +1,14 @@
+{
+  "name": "archivos-base",
+  "version": "1.0.0",
+  "description": "Archivos base para empezar cualquier proyecto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andree Ismodes",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}

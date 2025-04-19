@@ -343,15 +343,36 @@ header img {
   width: 32px;
   margin-right: 1rem;
 }
-header i {
+header .redes_sociales i {
   color: #272727;
-  font-size: 3rem;
 }
 header div {
   font-size: 2rem;
 }
 header .header-text {
   font-size: 3rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+}
+
+.container_navegacion {
+  margin: 0.8rem 0;
+}
+
+.navegacion {
+  gap: 2rem;
+  font-weight: 400;
+}
+.navegacion i {
+  color: white;
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+}
+.navegacion .nav-link {
+  margin: 0;
+  padding: 0;
 }
 
 footer {
@@ -365,9 +386,13 @@ main {
   flex-grow: 1;
 }
 
+.slider {
+  height: 670px;
+}
+
 .carousel-item img {
   width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
-  height: 400px; /* Ajustamos la altura de las imágenes */
+  height: 100%;
   object-fit: cover; /* Asegura que las imágenes mantengan su proporción */
 }
 
@@ -392,5 +417,56 @@ main {
   background-color: #0056b3;
   color: white;
 }
+
+section.planes {
+  width: 75%;
+  margin: 0 auto;
+}
+section.planes h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+section.planes h2 span {
+  color: hsl(354, 84%, 57%);
+}
+section.planes p {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.card-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 1.5rem;
+  text-align: center;
+}
+.card-header span {
+  color: hsl(354, 84%, 57%);
+}
+.card-header .precio {
+  font-size: 1.2rem;
+  color: #747474;
+}
+
+.card-body {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.card-body .card-title {
+  margin-top: 1rem;
+}
+.card-body .card-text ul.beneficios li {
+  font-size: 1.5rem;
+}
+.card-body a {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
 
 /*# sourceMappingURL=app.css.map */

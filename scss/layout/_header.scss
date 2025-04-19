@@ -1,23 +1,50 @@
 @use './../base/variables' as v;
 
 
+// ! header Fitness
 header {
-    // height: 20rem;
+    background-color: v.$negro;
+    
     img {
         width: 32px;
         margin-right: 1rem;
         
     }
-    background-color: v.$negro;
-
-    i {
-        color: v.$gris-oscuro;
-        font-size: 3rem;
+    .redes_sociales {
+        
+        i {
+            color: v.$gris-oscuro;
+        }
     }
+    
     div {
         font-size: 2rem;
     }
     .header-text {
         font-size: 3rem;
+    }
+}
+
+
+.btn {
+    font-size: 1.8rem;
+}
+// ! Navegacion
+
+.container_navegacion {
+    margin: .8rem 0;
+}
+.navegacion {
+    gap: 2rem;
+    font-weight: v.$regular;
+    
+    i {
+        color: white;
+        font-size: 1.8rem;
+        margin-right: .5rem;
+    }
+    .nav-link {
+        margin: 0;
+        padding: 0;
     }
 }

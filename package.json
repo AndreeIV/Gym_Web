@@ -10,7 +10,9 @@
   "author": "Andree Ismodes",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.0"
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.0",
+    "gulp-connect-php": "^1.0.3"
   },
   "dependencies": {
     "sass": "^1.86.3"

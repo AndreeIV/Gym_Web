@@ -1,42 +1,4 @@
 // !Dependencias
-// const gulp = require('gulp');
-// const { exec } = require('child_process');
-// const sass = require('gulp-sass')(require('sass'));
-// const browserSync = require('browser-sync').create();
-
-
-// const paths = {
-//   scss: 'src/scss/**/*.scss',
-//   js: 'src/scripts/**/*.js',
-//   imagenes: 'src/assets/images/**/*'
-// }
-
-// function serve() {
-//   // Ejecuta live-server apuntando a la carpeta que quieres servir
-//   const server = exec('npx live-server . --port=8080 --open');
-
-//   server.stdout.on('data', data => console.log(data));
-
-
-
-// }
-
-// function css() {
-//   return gulp.src(paths.scss)
-//   .pipe(sass().on('error', sass.logError))
-//   .pipe(gulp.dest('public/build/css'))
-
-// }
-// function watchFiles() {
-//   gulp.watch(paths.scss, css);
-
-// }
-
-// exports.watchFiles = watchFiles
-// exports.css = css;
-// exports.default = gulp.parallel(css, serve, watchFiles);
-
-
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const browserSync = require('browser-sync').create();

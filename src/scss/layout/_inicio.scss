@@ -1,16 +1,24 @@
+@use './../base/variables' as v;
+@use './../base/mixins' as m;
 
 main {
     flex-grow: 1;
+    background-color: v.$gris-oscuro;
 }
 
 // ! Carrousel
 .slider {
-    height: 670px;
-    // background-color: red;
+    height: 250px;
+    background-color: black;
+
+    @include m.desktop {
+        height: 670px;
+    }
 }
 .carousel-item img {
     width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
     // height: 400px; /* Ajustamos la altura de las imágenes */
+    height: 250px;
     height: 100%;
     object-fit: cover; /* Asegura que las imágenes mantengan su proporción */
 }

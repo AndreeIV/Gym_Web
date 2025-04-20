@@ -10,10 +10,20 @@ header {
         margin-right: 1rem;
         
     }
+    
+    .logo-header {
+
+
+        img {
+            width: 6rem;
+
+        }
+    }
     .redes_sociales {
         
         i {
             color: v.$gris-oscuro;
+            font-size: 2.5rem;
         }
     }
     
@@ -32,19 +42,34 @@ header {
 // ! Navegacion
 
 .container_navegacion {
-    margin: .8rem 0;
+    padding: 1rem 2rem;
+
 }
 .navegacion {
     gap: 2rem;
     font-weight: v.$regular;
+
+    .logo {
+        font-size: 2.8rem;
+    }
     
     i {
         color: white;
-        font-size: 1.8rem;
+        font-size: 3rem;
         margin-right: .5rem;
     }
     .nav-link {
         margin: 0;
         padding: 0;
+    }
+    
+
+
+    
+    .dropdown-menu {
+
+        a {
+            font-size: 2rem;
+        }
     }
 }

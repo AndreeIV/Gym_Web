@@ -3,8 +3,21 @@
 
 
 section.planes {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
+    padding: 5rem 2rem;
+    background-color: white;
+
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+
+
+    margin-bottom: 7rem;
+
+    @include m.desktop {
+        padding: 6rem 5rem;
+
+    }
+    
 
     // ?Elige tus planes
     h2 {
@@ -20,18 +33,18 @@ section.planes {
     p {
         text-align: center;
         font-size: 1.8rem;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 }
 
 .card-header {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 500;
     padding: 1.5rem;
     text-align: center;
 
     span {
-    color: v.$red;
+        font-weight: 700;
     }
 
     .precio {
@@ -48,6 +61,7 @@ section.planes {
 
     .card-title {
         margin-top: 1rem;
+        font-size: 1.5rem;
     }
 
     .card-text{

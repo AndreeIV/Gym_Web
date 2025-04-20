@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(135deg, #d0f0c0, #a8e6cf, #f0f4f3);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+  }
+
+  .form-control {
+    /*border-radius: 10px !important;*/
+    background-color: #f4f6f5;
+    border: 1px solid #ccc;
+  }
+
+  .form-control:focus {
+    border-color: forestgreen;
+    box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
+  }
+
+  .input-group-text {
+    background-color: #f4f6f5;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px;
+    color: #555;
+  }
+
+  .social-icons i {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .social-icons i:hover {
+    color: forestgreen;
+  }
+
+  .btn-green {
+    background-color: forestgreen;
+    color: white;
+    border-radius: 10px;
+    font-weight: 800;
+  }
+
+  .btn-green:hover {
+    background-color: #228b22;
+  }
+
+  .bg-welcome {
+    background: linear-gradient(145deg, forestgreen, #228b22);
+    color: white;
+    text-align: center;
+  }
+
+  .bg-welcome h3 {
+    font-size: 28px;
+  }
+
+  .bg-welcome p {
+    font-size: 15px;
+  }
+
+  .bg-welcome button {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .bg-welcome button:hover {
+    background-color: white;
+    color: forestgreen;
+  }
+
+  @media (max-width: 768px) {
+    .bg-welcome {
+      display: none;
+    }
+  }
+
+  a {
+    font-size: 14px;
+    color: #444;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animaciones suaves */
+@keyframes fadeInRight {
+0% {
+  opacity: 0;
+  transform: translateX(30px);
+}
+100% {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+
+@keyframes fadeOutLeft {
+0% {
+  opacity: 1;
+  transform: translateX(0);
+}
+100% {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+}
+
+.fade-in {
+animation: fadeInRight 0.5s forwards;
+}
+
+.fade-out {
+animation: fadeOutLeft 0.5s forwards;
+}

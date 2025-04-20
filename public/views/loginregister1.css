@@ -23,7 +23,7 @@ body {
   }
 
   .form-control:focus {
-    border-color: forestgreen;
+    border-color: hsl(354, 84%, 57%);
     box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
   }
 
@@ -43,22 +43,22 @@ body {
   }
 
   .social-icons i:hover {
-    color: forestgreen;
+    color: hsl(354, 84%, 57%);
   }
 
   .btn-green {
-    background-color: forestgreen;
+    background-color: hsl(354, 84%, 57%);
     color: white;
     border-radius: 10px;
     font-weight: 800;
   }
 
   .btn-green:hover {
-    background-color: #228b22;
+    background-color: hsl(354, 84%, 57%);
   }
 
   .bg-welcome {
-    background: linear-gradient(145deg, forestgreen, #228b22);
+    background: linear-gradient(145deg, hsl(354, 84%, 57%), hsl(354, 84%, 57%));
     color: white;
     text-align: center;
   }
@@ -80,7 +80,7 @@ body {
 
   .bg-welcome button:hover {
     background-color: white;
-    color: forestgreen;
+    color: hsl(354, 84%, 57%);
   }
 
   @media (max-width: 768px) {

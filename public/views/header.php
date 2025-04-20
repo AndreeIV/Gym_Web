@@ -42,11 +42,11 @@
 
         <!-- Redes sociales -->
         <div class="redes_sociales">
-          <a href="#" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="text-dark me-3"><i class="fab fa-x-twitter"></i></a>
-          <a href="#" class="text-dark me-3"><i class="fab fa-linkedin-in"></i></a>
-        </div>
+        <a href="https://www.facebook.com/jhonathan.ismodes/" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/_andree.dev_/" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/Andree_IV" class="text-dark me-3"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/andree-ismodes-56341a244/" class="text-dark me-3"><i class="fab fa-linkedin-in"></i></a>
+    </div>
       </div>
     </div>
 
@@ -63,20 +63,20 @@
           <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="nosotros.php">Sobre Nosotros</a>
+          <a class="nav-link active" href="ubicanos.php">Ubícanos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Planes</a>
+          <a class="nav-link active" href="index.php#planes">Planes</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Más
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Horarios</a></li>
+            <!-- <li><a class="dropdown-item" href="#">Horarios</a></li> -->
             <li><a class="dropdown-item" href="clases.php">Clases grupales</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
+            <li><a class="dropdown-item" href="public\views\loginregister1.html">Iniciar Sesión</a></li>
             <li><a class="dropdown-item" href="public\views\loginregister1.html">Registrarse</a></li>
           </ul>
         </li>

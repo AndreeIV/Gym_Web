@@ -391,6 +391,24 @@ footer {
   text-align: center;
   padding: 10px;
 }
+footer > h2 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+footer > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+footer div.separador {
+  width: 80%;
+  height: 1px;
+  background-color: #fff;
+  margin: 2rem auto;
+}
+footer div.redes_sociales i {
+  color: white;
+  font-size: 2.5rem;
+}
 
 main {
   flex-grow: 1;
@@ -597,4 +615,61 @@ section.clases-grupales p {
 
 .ver-clases {
   font-size: 2rem;
+}
+
+section.ubicanos {
+  width: 85%;
+  margin: 5rem auto;
+  padding: 4rem 2rem;
+  background-color: white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+@media (min-width: 768px) {
+  section.ubicanos {
+    padding: 6rem 5rem;
+  }
+}
+section.ubicanos .mapa {
+  width: 100%;
+  height: 200PX;
+  border: 2px solid #747474;
+}
+@media (min-width: 768px) {
+  section.ubicanos .mapa {
+    height: 500PX;
+  }
+}
+section.ubicanos > h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+section.ubicanos > h2 span {
+  color: hsl(354, 84%, 57%);
+}
+section.ubicanos p.indicaciones {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+section.ubicanos p.indicaciones span {
+  color: hsl(354, 84%, 57%);
+  font-weight: 700;
+}
+
+.contacto {
+  background-color: hsl(354, 84%, 57%);
+  border-radius: 15px;
+  padding: 3rem;
+}
+.contacto > h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.contacto > p {
+  font-weight: 500;
 }

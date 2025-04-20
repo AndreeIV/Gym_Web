@@ -54,7 +54,7 @@
    
 
     <!-- ! Section Planes -->
-    <section class="planes">
+    <section id="planes" class="planes">
         <h2>Elige tus <span>Planes</span></h2>
         <p>¡Comienza a entrenar con nosotros! Elige el plan que quieras y nos vemos en la sede de tu preferencia.</p>
 
